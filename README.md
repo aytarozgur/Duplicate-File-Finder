@@ -4,3 +4,12 @@ Instead of comparing two files byte by byte, you will compare their checksum val
 
 Your program will sort the duplicate lists by the number of files in each list.
 For example, if four duplicates of a file is detected, then this four files will be printed before a duplicate list of size two.
+
+Testing
+
+java -jar target/Duplicate-File-Finder-1.0.jar abc/
+
+it will print out
+
+b.txt a.txt
+
